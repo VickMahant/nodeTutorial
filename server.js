@@ -8,7 +8,7 @@ app.get('/', function(req, res) {
 	res.sendfile('./public/index.html');
 });
 app.get('/myhtml', function(req, res) {
-	res.sendfile('VickMahant/Dailer/index.html');
+	res.sendfile('Dailer/index.html');
 });
 app.get('/storytime', function(req, res) {
 	res.send("<p>Hey"+req.query.name+"Once upon a time</p>");
