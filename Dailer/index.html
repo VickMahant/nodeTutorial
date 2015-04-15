@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <Title>Dailer</Title>
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="pageone">
+  <div data-role="header">
+    <h1>Dialer</h1>
+  </div>
+
+  <div data-role="main" class="ui-content" align="center">
+    <input type="text" id="txt" readonly="readonly">
+    <input type="button" class="dialerNums" value="1" data-inline="true">
+    <input type="button" class="dialerNums" value="2" data-inline="true">
+    <input type="button" class="dialerNums" value="3" data-inline="true"><br>
+    <input type="button" class="dialerNums" value="4" data-inline="true">
+    <input type="button" class="dialerNums" value="5" data-inline="true">
+    <input type="button" class="dialerNums" value="6" data-inline="true"><br>
+    <input type="button" class="dialerNums" value="7" data-inline="true">
+    <input type="button" class="dialerNums" value="8" data-inline="true">
+    <input type="button" class="dialerNums" value="9" data-inline="true"><br>
+    <input type="button" value="C" data-inline="true" id="clearAll">
+    <input type="button" class="dialerNums" value="0" data-inline="true">
+   <!-- <button id="back"><input type="button" data-icon="arrow-l" data-iconpos="notext" data-inline="true"></button>!-->
+    <input type="button" data-icon="arrow-l" data-iconpos="notext" data-inline="true" id="backSpc">
+    <button data-inline="true" class="ui-btn" id="call">Call</button>
+  </div>
+
+  <div data-role="footer"  data-position="fixed">
+    <h1>Welcome to Vick's Dailer</h1>
+  </div>
+</div> 
+</body>
+
+</html>
